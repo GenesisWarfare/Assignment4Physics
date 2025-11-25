@@ -5,6 +5,41 @@ Asteroid Land is a challenging space landing game. You control a spaceship using
 
 - **Itch.io** [Play Asteroid Land](https://genesiswarfare.itch.io/asteroid-land)
 
+---
+
+## Assets
+- Assets/
+  - Prefabs/
+    - Asteroid.prefab
+    - Spaceship.prefab
+    - Stone.prefab
+  - Scenes/
+    - level_1.unity
+    - level_2.unity
+    - level_3.unity
+    - Win_Screen.unity
+  - Scripts/
+    - Asteroids/
+      - AsteroidMovement.cs
+      - AsteroidSpawner.cs
+    - Menu/
+      - MenuController.cs
+    - Player/
+      - LandingGoal.cs
+      - SpaceshipCollision.cs
+      - SpaceshipController.cs
+    - Stones/
+      - StoneMovement.cs
+      - StoneSpawner.cs
+  - Settings/
+    - DefaultVolumeProfile.asset
+    - UniversalRenderPipelineGlobalSettings.asset
+  - Sprites/
+    - Asteroid
+    - background
+    - Spaceship
+    - Stone
+---
 
 ## Gameplay
 - **Controls:** Arrow keys to move the spaceship.
