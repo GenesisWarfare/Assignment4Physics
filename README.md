@@ -7,10 +7,10 @@ Asteroid Land is a challenging space landing game. You control a spaceship using
 - **Controls:** Arrow keys to move the spaceship.
 - **Hazards:**
   - **Asteroids:** Move around in space—you must avoid them.
-  - **Falling Stones:** Drop to the ground—you must dodge them.
+  - **Stones:** Roll on the ground—you must dodge them.
 - **Lives:** You have **3 lives**. If you crash, you lose a life. When all lives are gone, the level restarts.
 - **Levels:**
-  - **Level 1:** Wait **5 seconds** on the landing platform.
+  - **Level 1:** Wait **5 seconds** on land.
   - **Level 2:** Wait **7 seconds**.
   - **Level 3:** Wait **10 seconds**.
 - **Difficulty:** Increases with each level.
