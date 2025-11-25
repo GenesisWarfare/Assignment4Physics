@@ -3,6 +3,9 @@
 ## Description
 Asteroid Land is a challenging space landing game. You control a spaceship using the arrow keys, which apply force to move it. Your goal is to safely land the ship while avoiding hazards and surviving increasingly difficult levels.
 
+- **Itch.io** [Play Asteroid Land]([https://your-game-link.com](https://genesiswarfare.itch.io/asteroid-land))
+
+
 ## Gameplay
 - **Controls:** Arrow keys to move the spaceship.
 - **Hazards:**
