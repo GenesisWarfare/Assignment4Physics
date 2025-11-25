@@ -40,6 +40,22 @@ Asteroid Land is a challenging space landing game. You control a spaceship using
     - Spaceship
     - Stone
 ---
+1. StoneMovement – Moves the falling stones downwards, usually with a set speed. Handles when stones hit the ground or player.
+
+2. StoneSpawner – Creates (spawns) stones at random positions at intervals during the level.
+
+3. AsteroidMovement – Moves asteroids in space, usually in a pattern or random direction. Handles collisions if needed.
+
+4. AsteroidSpawner – Creates asteroids at random positions in the game space over time.
+
+5. LandingGoal – Checks if the spaceship is on the landing platform and counts the required waiting time to complete the level.
+
+6. SpaceshipCollision – Detects collisions of the spaceship with stones, asteroids, or the ground. Handles losing lives and restarting levels.
+
+7. SpaceshipController – Reads player input (arrow keys), applies force to move the spaceship, and limits maximum speed.
+
+8. MenuController – Handles the menu UI, like starting the game, navigating levels, or showing instructions.
+---
 
 ## Gameplay
 - **Controls:** Arrow keys to move the spaceship.
