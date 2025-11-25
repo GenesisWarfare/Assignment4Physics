@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SpaceshipController : MonoBehaviour
 {
-    public float forceAmount = 2f;
+    public float forceAmount = 200f;
     public float maxSpeed = 12f;
 
     Rigidbody2D rb;
@@ -12,7 +12,7 @@ public class SpaceshipController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         float rad = rb.rotation * Mathf.Deg2Rad;
         Vector2 right = new Vector2(Mathf.Cos(rad), Mathf.Sin(rad));
