@@ -133,7 +133,7 @@ PrefabInstance:
       objectReference: {fileID: 812715995}
     - target: {fileID: -1198168501432730148, guid: 351b810f9c0ef29438db6f8a00e523d9, type: 3}
       propertyPath: requiredStayTime
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 603003811124500052, guid: 351b810f9c0ef29438db6f8a00e523d9, type: 3}
       propertyPath: m_LocalPosition.x
